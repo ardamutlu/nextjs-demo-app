@@ -41,7 +41,7 @@ const login = async (
       ...user,
       sub: testUser.id,
     },
-    secret: process.env.NEXTAUTH_SECRET,
+    secret: process.env.AUTH_SECRET,
   });
 
   const session = {
