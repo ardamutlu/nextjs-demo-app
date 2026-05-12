@@ -41,6 +41,12 @@ jobs:
       - name: Install
         run: npm ci
 
+      # 🔥 DB schema sync
+      - name: Run Prisma Migrations
+        run: npx prisma migrate deploy
+        env:
+         DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
       - name: Lint
         run: npm run lint
 
