@@ -1,0 +1,12 @@
+{
+  "owner": "Owner",
+  "language": "Language",
+  "languages": "Languages",
+  "watchers": "Watchers",
+  "visibility": "Visibility",
+  "clearFilters": "Clear filters",
+  "searchInputPlaceholder": "Search...",
+  "noLanguageFound": "No language found.",
+  "openGithubPage": "Open github page",
+  "copyUrl": "Copy url"
+}

@@ -1,0 +1,12 @@
+{
+  "owner": "Sahip",
+  "language": "Dil",
+  "languages": "Diller",
+  "watchers": "İzleyiciler",
+  "visibility": "Görünürlük",
+  "clearFilters": "Filtreleri temizle",
+  "searchInputPlaceholder": "Ara...",
+  "noLanguageFound": "Dil bulunamadı.",
+  "openGithubPage": "Github sayfasını aç",
+  "copyUrl": "Url kopyala"
+}
