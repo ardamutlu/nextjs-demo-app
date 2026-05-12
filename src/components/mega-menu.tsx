@@ -14,7 +14,7 @@ import { MENU_MEGA } from "@/config/menu.config";
 
 export function MegaMenu() {
   const pathname = usePathname();
-  const { isActive, hasActiveChild } = useMenu(pathname);
+  const { isActive } = useMenu(pathname);
 
   const linkClass = `
     text-sm text-secondary-foreground font-medium 
